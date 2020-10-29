@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+/**
+ * Base Elements
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background: #f3f3f3;
+}
+.jumbo{
+  padding: 50px;
+  background: rgb(246, 246, 246);
+}
+.right{
+  float: right;
+}
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  background: #f9f9f9;
+  margin: 0 auto;
+}
+.tomster {
+     background: url(../assets/images/teaching-tomster.jpeg) no-repeat;
+     background-size: contain;
+     height: 200px;
+     width: 200px;
+     top: -25px;
+     position: relative;
+}
+.jumbo h2 {
+  font-size: 3.2em;
+  margin-top: -25px;
+}
+.jumbo p {
+  margin-bottom: 25px;
+}
+.menu{
+  height: 4em;
+  background-color: #e46855;
+}
+nav{
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+.menu-index{
+  font-size: 23px;
+  font-style: italic;
+  padding: 20px 0px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.menu-about, .menu-contact{
+  margin: 20px 20px;
+  font-size: 25px;
+}
+.button, .basic{
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.button{
+  padding: 10px 25px;
+  background: #016aba;
+  border: none;
+  font-size: 20px;
+  opacity: .9 ;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.jumbo address{
+  margin-bottom: 25px;
+}
+address{
+  font-style: italic;
+  display: block;
+}
