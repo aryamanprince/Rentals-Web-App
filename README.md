@@ -1,5 +1,5 @@
 # super-rentals
-This a multi platform web app built on ember js framework. Presently it is running on \
+This a simple website built on ember js framework. Presently it is running on \
 local host but soon it will be deplaoyed on web platform to be accessible for everyone.
 
 ## Prerequisites
